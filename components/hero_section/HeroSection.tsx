@@ -9,7 +9,14 @@ const HeroSection = () => {
             <Title/>
             <ParagraphText/>
             <div className="flex justify-center space-x-[25px] mt-[32px]">
-                <FilledButton content="Contact Us"/>
+                <div className="relative">
+                <FilledButton content="Contact Us" />
+
+                {/* Vertical line starts below the button */}
+                <div
+                    className="absolute top-full h-[100px] ml-[60px] border-l-2 border-dashed bottom-0 w-[0.5px] border-[#BFBCCC]"
+                ></div>
+                </div>
                 <HollowButton content="About Us"/>
             </div>
         </div>

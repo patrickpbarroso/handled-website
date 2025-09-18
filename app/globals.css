@@ -31,7 +31,11 @@ body {
   clip-path: polygon(
     0 0,          /* top-left */
     100% 0,       /* top-right */
-    100% 400px,   /* bottom-right */
+    100% 350px,   /* bottom-right */
     0 450px       /* bottom-left */
   );
+}
+
+.text-thick-shadow {
+  text-shadow: 4px 2px 4px rgba(0, 0, 0, 0.7);
 }

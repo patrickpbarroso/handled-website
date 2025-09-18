@@ -32,7 +32,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={inter.className}>
-      <body>
+      <body className="relative min-h-screen">
         <NavBar />
         <SubNavBar />
         <Home />
