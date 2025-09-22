@@ -38,6 +38,23 @@ export default function RootLayout({
         <Home />
         <VerticalLine left={15}/>
         <VerticalLine left={35}/>
+        <footer className="bg-[#343338] text-white flex flex-row justify-between px-[30px] py-[25px] text-inter relative z-10">
+          <img className="h-[20px] w-[" src="HandledLogo.png"/>
+          <div className="text-center text-[16px]">
+            <p>Home</p>
+            <p>About Us</p>
+            <p>Services</p>
+            <p>Pricing</p>
+            <p>Contact</p>
+          </div>
+          <div className="text-[12px] flex flex-col justify-between">
+            <div>
+              <p>T:013624829742</p>
+              <p>email: handled@gmail.com</p>
+            </div>
+            <p>Privacy Policy</p>
+          </div>
+        </footer>
       </body>
     </html>
   );
