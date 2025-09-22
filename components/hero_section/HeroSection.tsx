@@ -9,7 +9,7 @@ const HeroSection = () => {
             <Title/>
             <ParagraphText/>
             <div className="mx-15">
-                <div className="flex justify-between space-x-[25px] mt-[32px]">
+                <div className="flex justify-center space-x-[25px] mt-[32px]">
                     <div className="relative">
                     <FilledButton content="Contact Us" />
 
