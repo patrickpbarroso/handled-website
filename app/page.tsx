@@ -11,7 +11,7 @@ export default function Home() {
       </div>
       <div className="bg-[#23232C] justify-center align-center text-center text-[#E6E6F3] absolute top-[445px] text-inter ml-[70px] mr-[20px] px-[18px] py-[16px]">
         <p className="text-[28px] font-bold">What we can do for <span className="text-[#A1B0E0]">you</span></p>
-        <p className="text-lg text-[#E6E6F3] mt-[12px] mb-[32px] tracking-[0.05em] leading-[1.7em]">
+        <p className="text-[16px] text-[#E6E6F3] mt-[12px] mb-[32px] tracking-[0.05em] leading-[1.7em]">
           Our services cover the whole process of bringing your business into the online world. 
           We help elevate your online presence with a professionally designed site optimised for search engine visibility, 
           complete security, and lightning quick speeds.
