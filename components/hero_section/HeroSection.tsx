@@ -8,7 +8,7 @@ const HeroSection = () => {
         <div>
             <Title/>
             <ParagraphText/>
-            <div className="mx-20">
+            <div className="mx-15">
                 <div className="flex justify-between space-x-[25px] mt-[32px]">
                     <div className="relative">
                     <FilledButton content="Contact Us" />
