@@ -18,7 +18,7 @@ export default function Home() {
         </p>
         <FilledButton content="Get Started"/>
       </div>
-      <div className="ml-[40px] mt-[400px] justify-center items-center text-center text-[#E6E6F3]">
+      <div className="ml-[60px] mt-[400px] justify-center items-center text-center text-[#E6E6F3]">
         <p className="text-[32px]">Our Services<span className="text-[#3A58BA]">.</span></p>
         <p className="text-[16px] text-[#E6E6F3] mt-[12px] mb-[32px] tracking-[0.05em] leading-[1.7em] mr-[20px]">
           From Design to Maintenance, <span className="text-[#A1B0E0]">we’re with you</span> every step of the way.
