@@ -50,8 +50,8 @@ const NavBar = () => {
             </div>
             <div className={
                 menuOpen 
-                ? "fixed top-0 w-[100%] sm:hidden h-[50%] bg-[#343338] p-10 ease-in-out duration-500 z-50"
-                : "fixed top-[-40%] w-[100%] h-[40%] op-0 ease-in duration-200 z-50"
+                ? "fixed top-0 w-[100%] sm:hidden h-[400px] bg-[#343338] p-10 ease-in-out duration-500 z-50"
+                : "fixed top-[-100%] w-[100%] h-[40%] op-0 ease-in duration-200 z-50"
             }>
                 <div className="flex w-full items-center justify-end">
                     <div onClick={handleNav} className="cursor-pointer">
