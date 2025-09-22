@@ -9,7 +9,7 @@ export default function Home() {
       <div className="w-full h-[450px] bg-[#434357] clip-slant pt-8">
         <HeroSection />
       </div>
-      <div className="bg-[#23232C] flex flex-col min-h-[500px] justify-center items-center text-center text-[#E6E6F3] absolute top-[445px] text-inter ml-[60px] mr-[20px] px-3 py-[16px]">
+      <div className="bg-[#23232C] flex flex-col min-h-[450px] justify-center items-center text-center text-[#E6E6F3] absolute top-[445px] text-inter ml-[60px] mr-[20px] px-3 py-[16px]">
         <p className="text-[28px] font-bold">What we can do for <span className="text-[#A1B0E0]">you</span></p>
         <p className="text-[16px] text-[#E6E6F3] mt-[12px] mb-[32px] tracking-[0.05em] leading-[1.7em]">
           Our services cover the whole process of bringing your business into the online world. 
@@ -18,12 +18,12 @@ export default function Home() {
         </p>
         <FilledButton content="Get Started"/>
       </div>
-      <div className="mt-[500px] justify-center items-center text-center text-[#E6E6F3]">
+      <div className="ml-[40px] mt-[400px] justify-center items-center text-center text-[#E6E6F3]">
         <p className="text-[32px]">Our Services<span className="text-[#3A58BA]">.</span></p>
-        <p className="text-lg text-[#E6E6F3] mt-[12px] mb-[32px] tracking-[0.05em] leading-[1.7em] ml-[70px] mr-[20px]">
+        <p className="text-[16px] text-[#E6E6F3] mt-[12px] mb-[32px] tracking-[0.05em] leading-[1.7em] mr-[20px]">
           From Design to Maintenance, <span className="text-[#A1B0E0]">we’re with you</span> every step of the way.
         </p>
-        <div className="ml-[70px] mr-[20px] pb-[20px]">
+        <div className="mr-[20px] pb-[20px]">
           <div className="flex flex-row mb-[20px] justify-center items-center">
             <div className="flex flex-col justify-center items-center bg-[#434357] w-[180px] h-[120px] py-[25px] px-[40px] mr-[20px]">
                 <img src="design.png"/>
