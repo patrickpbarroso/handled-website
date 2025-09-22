@@ -15,7 +15,7 @@ const HeroSection = () => {
 
                     {/* Vertical line starts below the button */}
                     <div
-                        className="absolute top-full h-[100px] ml-[60px] border-l-2 border-dashed bottom-0 w-[0.5px] border-[#BFBCCC]"
+                        className="absolute top-full h-[400%] ml-[60px] border-l-2 border-dashed bottom-0 w-[0.5px] border-[#BFBCCC]"
                     ></div>
                     </div>
                     <HollowButton content="About Us"/>
