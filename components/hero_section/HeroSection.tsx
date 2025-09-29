@@ -5,9 +5,14 @@ import Title from "./Title"
 
 const HeroSection = () => {
     return (
-        <div>
-            <Title/>
-            <ParagraphText/>
+        <div className="ml-[70px] mr-5">
+            <Title>
+                Professional Website Development <span className="text-[#3A58BA]">.</span>
+            </Title>
+            <ParagraphText>
+                Custom designs professionally built to benefit your business. We'll tailor your online presence to bring you
+                <span className="font-bold"> success</span>.
+            </ParagraphText>
             <div className="mx-15">
                 <div className="flex justify-center space-x-[25px] mt-[32px]">
                     <div className="relative">

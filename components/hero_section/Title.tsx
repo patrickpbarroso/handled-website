@@ -1,6 +1,12 @@
-const Title = () => {
+type TitleProps = {
+    children: React.ReactNode;
+};
+
+const Title:  React.FC<TitleProps> = ({ children }) => {
     return (
-        <h1 className="text-4xl text-white ml-[70px]">Let us handle it<span className="text-[#3A58BA]">.</span></h1>
+        <h1 className="text-4xl text-white">
+            { children }
+        </h1>
     )
 }
 
