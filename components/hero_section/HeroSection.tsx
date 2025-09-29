@@ -13,8 +13,8 @@ const HeroSection = () => {
                 Custom designs professionally built to benefit your business. Well tailor your online presence to bring you
                 <span className="font-bold"> success</span>.
             </ParagraphText>
-            <div className="mx-15">
-                <div className="flex justify-center space-x-[25px] mt-[32px]">
+            <div>
+                <div className="flex justify-between mx-10 mt-[32px]">
                     <div className="relative">
                     <FilledButton content="Contact Us" />
 
