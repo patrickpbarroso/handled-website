@@ -10,7 +10,7 @@ const HeroSection = () => {
                 Professional Website Development <span className="text-[#3A58BA]">.</span>
             </Title>
             <ParagraphText>
-                Custom designs professionally built to benefit your business. We'll tailor your online presence to bring you
+                Custom designs professionally built to benefit your business. Well tailor your online presence to bring you
                 <span className="font-bold"> success</span>.
             </ParagraphText>
             <div className="mx-15">
