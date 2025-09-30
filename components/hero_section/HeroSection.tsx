@@ -5,7 +5,7 @@ import Title from "./Title"
 
 const HeroSection = () => {
     return (
-        <div className="ml-[60px]">
+        <div className="ml-[50px]">
             <Title>
                 Professional Website Development <span className="text-[#3A58BA]">.</span>
             </Title>
