@@ -14,7 +14,7 @@ const HeroSection = () => {
                 <span className="font-bold"> success</span>.
             </ParagraphText>
             <div className="absolute">
-                <div className="flex justify-center space-x-[25px] mx-10 mt-[32px]">
+                <div className="flex justify-center space-x-[15px] mx-10 mt-[32px]">
                     <div className="relative">
                     <FilledButton content="Contact Us" />
 
