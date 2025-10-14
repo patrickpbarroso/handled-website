@@ -40,9 +40,9 @@ body {
   position: relative;
   overflow: visible; /* allows children to show fully */
   clip-path: polygon(
-    0 100px,       /* top-left */
+    0 50px,       /* top-left */
     100% 0,        /* top-right */
-    100% 800px,    /* bottom-right */
+    100% 850px,    /* bottom-right */
     0 900px        /* bottom-left */
   );
 }

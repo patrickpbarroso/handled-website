@@ -3,6 +3,7 @@ import HeroSection from "@/components/hero_section/HeroSection";
 import HollowButton from "@/components/hero_section/HollowButton";
 import ParagraphText from "@/components/hero_section/ParagraphText";
 import Title from "@/components/hero_section/Title";
+import Carousel from "@/components/UI/Carousel";
 import OverlayCard from "@/components/UI/OverlayCard";
 import SecondaryTitle from "@/components/UI/SecondaryTitle";
 import ServiceCard from "@/components/UI/ServiceCard";
@@ -71,7 +72,7 @@ export default function Home() {
 
       {/* Why coose us section */}
       <div className="w-full h-[950px] bg-[#434357] clip-slant-second pt-8"/>
-      <div className="absolute top-[1450px] w-full font-inter">
+      <div className="absolute top-[1400px] w-full font-inter">
         <OverlayCard height={700}>
           <SecondaryTitle>Why choose <span>Us</span>?</SecondaryTitle>
           <ParagraphText>
@@ -89,8 +90,23 @@ export default function Home() {
           
         </OverlayCard>
       </div>
-      
+
+      {/* Some of our projects carousel */}
+      <div className="absolute top-[2150px] font-inter ml-[60px] mr-[20px]">
+        <div className="text-center mb-[10px]">
+          <p className="text-[#D8D8ED] text-[28px]">
+            Here's Some of Our Projects.
+          </p>
+        </div>
+        <Carousel />
+      </div>
+
+      {/* How we work section */}
+      <div className="mt-[250px] ml-[60px] text-center">
+        <SecondaryTitle>How we work</SecondaryTitle>
+      </div>
     </div>
+    
     
   );
 }
