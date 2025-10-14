@@ -7,7 +7,6 @@ import Carousel from "@/components/UI/Carousel";
 import OverlayCard from "@/components/UI/OverlayCard";
 import SecondaryTitle from "@/components/UI/SecondaryTitle";
 import ServiceCard from "@/components/UI/ServiceCard";
-import Image from "next/image";
 
 export default function Home() {
   return (
@@ -94,8 +93,8 @@ export default function Home() {
       {/* Some of our projects carousel */}
       <div className="absolute top-[2150px] font-inter ml-[60px] mr-[20px]">
         <div className="text-center mb-[10px]">
-          <p className="text-[#D8D8ED] text-[28px]">
-            Here's Some of Our Projects.
+          <p className="text-[#D8D8ED] text-[24px]">
+            Here is Some of Our Projects.
           </p>
         </div>
         <Carousel />
