@@ -91,7 +91,7 @@ export default function Home() {
       </div>
 
       {/* Some of our projects carousel */}
-      <div className="absolute top-[2150px] font-inter ml-[60px] mr-[20px]">
+      <div className="absolute top-[2150px] font-inter ml-[60px] pr-[20px]">
         <div className="text-center mb-[10px]">
           <p className="text-[#D8D8ED] text-[24px]">
             Here is Some of Our Projects.
