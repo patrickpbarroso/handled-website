@@ -72,7 +72,7 @@ export default function Home() {
       {/* Why coose us section */}
       <div className="w-full h-[950px] bg-[#434357] clip-slant-second pt-8"/>
       <div className="absolute top-[1400px] w-full font-inter">
-        <OverlayCard height={700}>
+        <OverlayCard height={500}>
           <SecondaryTitle>Why choose <span>Us</span>?</SecondaryTitle>
           <ParagraphText>
             We are small team of experienced developers with a big passion for building websites. Every project gets our
