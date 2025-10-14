@@ -22,9 +22,9 @@ export default function Carousel(){
                             <Image
                                 src={src[0]}
                                 alt={`Slide ${index}`}
-                                width={600}
-                                height={300}
-                                className="w-full h-auto object-cover"
+                                width={1200}
+                                height={600}
+                                
                             />
                             <div className="bg-[#24242C] font-lato text-center pt-[30px] pb-[15px] mt-[-30px] mx-[10px] px-[10px]">
                                 <ParagraphText>
