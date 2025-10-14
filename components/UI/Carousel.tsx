@@ -27,7 +27,7 @@ export default function Carousel(){
                             height={800}   // intrinsic height of your image
                             />
                             </div>
-                            <div className="">
+                            <div className="bg-[#24242C] pt-[5px] mt-[-10px] pb-[10px] text-center">
                                 <ParagraphText>
                                     {src[1]}
                                 </ParagraphText>
