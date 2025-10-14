@@ -22,7 +22,7 @@ export default function Carousel(){
                             <Image
                                 src={src[0]}
                                 alt={`Slide ${index}`}
-                                width={600}
+                                width={300}
                                 height={300}
                                 className="w-full h-auto object-cover"
                             />
