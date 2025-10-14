@@ -1,7 +1,7 @@
-import FilledButton from "./FilledButton"
-import HollowButton from "./HollowButton"
-import ParagraphText from "./ParagraphText"
-import Title from "./Title"
+import FilledButton from "../UI/Buttons/FilledButton"
+import HollowButton from "../UI/Buttons/HollowButton"
+import ParagraphText from "../UI/Text/ParagraphText"
+import Title from "../UI/Text/Title"
 
 const HeroSection = () => {
     return (
@@ -25,8 +25,7 @@ const HeroSection = () => {
                     </div>
                     <HollowButton content="About Us"/>
                 </div>
-            </div>
-            
+            </div> 
         </div>
     )
 }

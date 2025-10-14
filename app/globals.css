@@ -32,7 +32,7 @@ body {
     0 0,          /* top-left */
     100% 0,       /* top-right */
     100% 350px,   /* bottom-right */
-    0 450px       /* bottom-left */
+    0 400px       /* bottom-left */
   );
 }
 

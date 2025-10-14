@@ -2,7 +2,7 @@
 
 import useEmblaCarousel from "embla-carousel-react";
 import Image from "next/image";
-import ParagraphText from "../hero_section/ParagraphText";
+import ParagraphText from "../Text/ParagraphText"
 
 const images = [
     ["/setiaspa.png", "Sepia's Spa is a business who offers spa services in Malaysia.", "/"],

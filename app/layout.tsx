@@ -4,7 +4,7 @@ import "./globals.css";
 import NavBar from "@/components/header/NavBar";
 import Home from "./page";
 import SubNavBar from "@/components/header/SubNavBar";
-import VerticalLine from "@/components/VerticalLine";
+import VerticalLine from "@/components/UI/Figures/VerticalLine";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
