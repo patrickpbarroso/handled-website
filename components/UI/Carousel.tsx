@@ -19,13 +19,14 @@ export default function Carousel(){
                 {images.map((src, index) => (
                     <div className="flex-[0_0_90%]" key={index}>
                         <a href={src[2]}>
+                            <div className="relative w-full aspect-[16/9]"> {/* no fixed px, responsive */}
                             <Image
                                 src={src[0]}
                                 alt={`Slide ${index}`}
-                                width={200}
-                                height={200}
-                                
+                                fill
+                                priority={false}
                             />
+                            </div>
                             <div className="">
                                 <ParagraphText>
                                     {src[1]}
