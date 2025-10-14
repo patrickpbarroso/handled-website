@@ -21,11 +21,12 @@ export default function Carousel(){
                         <a href={src[2]}>
                             <div className="relative w-full aspect-[16/9]"> {/* no fixed px, responsive */}
                             <Image
-                                src={src[0]}
-                                alt={`Slide ${index}`}
-                                fill
-                                priority={false}
-                            />
+  src={src[0]}
+  alt={`Slide ${index}`}
+  width={1200}   // intrinsic width of your image
+  height={800}   // intrinsic height of your image
+  style={{ width: "auto", height: "auto", display: "block" }}
+/>
                             </div>
                             <div className="">
                                 <ParagraphText>
