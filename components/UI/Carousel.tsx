@@ -22,11 +22,11 @@ export default function Carousel(){
                             <Image
                                 src={src[0]}
                                 alt={`Slide ${index}`}
-                                width={1200}
-                                height={600}
+                                width={200}
+                                height={200}
                                 
                             />
-                            <div className="bg-[#24242C] font-lato text-center pt-[30px] pb-[15px] mt-[-30px] mx-[10px] px-[10px]">
+                            <div className="">
                                 <ParagraphText>
                                     {src[1]}
                                 </ParagraphText>
