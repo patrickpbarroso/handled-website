@@ -14,7 +14,7 @@ const WhatWeDoCard = () => {
             We help elevate your online presence with a professionally designed site optimised for search engine visibility, 
             complete security, and lightning quick speeds.
           </ParagraphText>
-          <div className="mt-[20px]">
+          <div className="mt-[20px] block md:hidden">
             <FilledButton content="Get Started"/>
           </div>
         </OverlayCard>

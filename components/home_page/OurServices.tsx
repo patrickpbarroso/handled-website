@@ -5,7 +5,7 @@ import ServiceCard from "../UI/Cards/ServiceCard";
 
 const HeroSection = () => {
     return (
-        <div className="ml-[60px] mr-[20px] mt-[400px] justify-center items-center text-center text-[#E6E6F3]">
+        <div className="ml-[60px] mr-[20px] mt-[350px] justify-center items-center text-center text-[#E6E6F3]">
             <Title>
             Our Services<span className="text-[#3A58BA]">.</span>
             </Title>

@@ -34,10 +34,24 @@ export default function RootLayout({
     <html lang="en" className={inter.className}>
       <body className="relative min-h-screen">
         <NavBar />
-        <SubNavBar />
+        <div className="block md:hidden">
+          <SubNavBar />
+        </div>
+        <div className="hidden md:block">
+          <SubNavBar height={"h-[10vh]"}/>
+        </div>
+        
         <Home />
-        <VerticalLine left={15}/>
-        <VerticalLine left={35}/>
+        
+        <div className="block md:hidden">
+          <VerticalLine left={5}/>
+          <VerticalLine left={10}/>
+        </div>
+        <div className="hidden md:block">
+          <VerticalLine left={5}/>
+          <VerticalLine left={8}/>
+        </div>
+        
         <footer className="bg-[#49484E] text-white flex flex-row justify-between px-[30px] py-[25px] text-inter relative z-10">
           <img className="h-[16px] w-[" src="HandledLogo.png"/>
           <div className="text-center text-[16px]">
