@@ -5,7 +5,7 @@ import Title from "../UI/Text/Title"
 
 const HeroSection = () => {
     return (
-        <div className="ml-[50px]">
+        <div className="ml-[50px] mr-[20px]">
             <Title>
                 Professional Website Development <span className="text-[#3A58BA]">.</span>
             </Title>
@@ -14,7 +14,7 @@ const HeroSection = () => {
                 <span className="font-bold"> success</span>.
             </ParagraphText>
             <div className="absolute">
-                <div className="flex justify-center space-x-[15px] mx-10 mt-[32px]">
+                <div className="flex justify-center space-x-[10px] mt-[20px]">
                     <div className="relative">
                     <FilledButton content="Contact Us" />
 

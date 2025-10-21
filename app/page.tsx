@@ -38,7 +38,7 @@ export default function Home() {
       </div>
 
       {/* Some of our projects carousel */}
-      <div className="absolute top-[1950px] font-inter ml-[60px] pr-[20px]">
+      <div className="absolute top-[1975px] font-inter ml-[60px] pr-[20px]">
         <PortfolioCarousel />
       </div>
 
@@ -47,13 +47,22 @@ export default function Home() {
         <HowWeWorkCard />
       </div>
 
-      {/* Make your vision reality section */}
+      {/* Make your vision ## section */}
 
-      <div className="mt-[200px] w-full h-[250px] bg-[#434357] clip-slant-third pt-8"/>
+      {/* <div className="mt-[200px] w-full h-[250px] bg-[#434357] clip-slant-third pt-8"/> */}
 
-      <div className="absolute top-[3350px]">
-        <MakeYourVisionRealityCard />
+      <div className="relative mt-[30px] pb-[30px]">
+        <div
+          className="absolute bottom-0 w-full h-full bg-[#434357]"
+          style={{
+            clipPath: 'polygon(0% 50%, 100% 40%, 100% 100%, 0% 100%)'
+          }}
+        ></div>
+        <div className="relative">
+          <MakeYourVisionRealityCard />
+        </div>
       </div>
+
       
     </div>
     
