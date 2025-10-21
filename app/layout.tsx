@@ -38,7 +38,7 @@ export default function RootLayout({
         <Home />
         <VerticalLine left={15}/>
         <VerticalLine left={35}/>
-        <footer className="bg-[#343338] text-white flex flex-row justify-between px-[30px] py-[25px] text-inter relative z-10">
+        <footer className="bg-[#49484E] text-white flex flex-row justify-between px-[30px] py-[25px] text-inter relative z-10">
           <img className="h-[16px] w-[" src="HandledLogo.png"/>
           <div className="text-center text-[16px]">
             <p>Home</p>
