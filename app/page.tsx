@@ -43,7 +43,7 @@ export default function Home() {
       </div>
 
       {/* How we work section */}
-      <div className="ml-[60px] mr-[20px] mt-[30px]">
+      <div className="ml-[60px] mr-[20px] mt-[60px]">
         <HowWeWorkCard />
       </div>
 
