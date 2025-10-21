@@ -35,7 +35,7 @@ const MobileHomePage = () => {
             </div>
 
             {/* How we work section */}
-            <div className="ml-[60px] mr-[20px] mt-[60px]">
+            <div className="ml-[60px] mr-[20px] mt-[80px]">
                 <HowWeWorkCard />
             </div>
 

@@ -17,7 +17,7 @@ const WhyUsCard = () => {
             <li>A personal, friendly approach where you are a partner, not just a client.</li>
             </ul>
             <div className="mt-[20px]">
-            <HollowButton content="About Us"/>
+            <HollowButton content="About Us" px="10" py="5" textSize="16"/>
             </div>
             
         </OverlayCard>

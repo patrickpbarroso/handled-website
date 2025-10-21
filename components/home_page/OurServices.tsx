@@ -35,7 +35,7 @@ const HeroSection = () => {
 
                 </div>
                 <div className="mt-[20px]">
-                    <HollowButton content="View Services" />
+                    <HollowButton content="View Services" px="10" py="5" textSize="16"/>
                 </div>
             </div>
         </div>

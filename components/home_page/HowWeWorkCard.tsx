@@ -53,7 +53,7 @@ const HowWeWorkCard = () => {
                     </ParagraphText>
                 </div>
                 <div className="justify-center align-center text-center mb-[10px]">
-                    <FilledButton content="Get Started"/>
+                    <FilledButton content="Get Started" px="10" py="5" textSize="16"/>
                 </div>
                 
             </div>

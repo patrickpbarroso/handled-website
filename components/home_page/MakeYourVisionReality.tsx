@@ -16,7 +16,7 @@ const MakeYourVisionRealityCard = () => {
             </div>
             <div className="flex flex-row mt-[25px] justify-center gap-x-[10px]">
                 <FilledButton content={"Contact Us"}/>
-                <HollowButton content={"About Us"}/>
+                <HollowButton content={"About Us"} px="10" py="5" textSize="16"/>
             </div>
         </OverlayCard>
     )

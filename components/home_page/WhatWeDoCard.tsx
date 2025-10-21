@@ -15,7 +15,7 @@ const WhatWeDoCard = () => {
             complete security, and lightning quick speeds.
           </ParagraphText>
           <div className="mt-[20px] block md:hidden">
-            <FilledButton content="Get Started"/>
+            <FilledButton content="Get Started" px="10" py="5" textSize="16"/>
           </div>
         </OverlayCard>
     )
