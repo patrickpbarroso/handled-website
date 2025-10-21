@@ -31,7 +31,7 @@ const DesktopHomePage = () => {
 
             {/* Image section — fills half */}
             <div className="w-1/2 flex items-center justify-center">
-                <img src="showcaseimage.png" className="w-full h-auto object-cover" />
+                <img src="showcaseimage.png" className="w-full h-[300px] object-cover" />
             </div>
         </div>
 
