@@ -13,7 +13,7 @@ const HeroSection = () => {
                 Custom designs professionally built to benefit your business. Well tailor your online presence to bring you
                 <span className="font-bold"> success</span>.
             </ParagraphText>
-            <div className="absolute">
+            <div>
                 <div className="flex justify-center space-x-[10px] mt-[20px]">
                     <div className="relative">
                     <FilledButton content="Contact Us" px="10" py="5" textSize="16"/>
