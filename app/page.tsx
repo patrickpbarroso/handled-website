@@ -12,6 +12,7 @@ import SecondaryTitle from "@/components/UI/Text/SecondaryTitle";
 import ServiceCard from "@/components/UI/Cards/ServiceCard";
 import WhatWeDoCard from "@/components/home_page/WhatWeDoCard";
 import WhyUsCard from "@/components/home_page/WhyUsCard";
+import MakeYourVisionRealityCard from "@/components/home_page/MakeYourVisionReality";
 
 export default function Home() {
   return (
@@ -44,6 +45,14 @@ export default function Home() {
       {/* How we work section */}
       <div className="ml-[60px] mr-[20px]">
         <HowWeWorkCard />
+      </div>
+
+      {/* Make your vision reality section */}
+
+      <div className="mt-[200px] w-full h-[250px] bg-[#434357] clip-slant-third pt-8"/>
+
+      <div className="absolute top-[3350px]">
+        <MakeYourVisionRealityCard />
       </div>
       
     </div>

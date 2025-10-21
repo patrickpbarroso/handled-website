@@ -47,6 +47,17 @@ body {
   );
 }
 
+.clip-slant-third {
+  position: relative;
+  overflow: visible; /* allows children to show fully */
+  clip-path: polygon(
+    0 50px,       /* top-left */
+    100% 0,        /* top-right */
+    100% 450px,    /* bottom-right */
+    0 450px        /* bottom-left */
+  );
+}
+
 
 .text-thick-shadow {
   text-shadow: 4px 2px 4px rgba(0, 0, 0, 0.7);
